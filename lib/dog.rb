@@ -4,10 +4,6 @@ class Person
     @name = name
   end 
   
-  attr_accessor :name
-  
 end 
 
 
-karen = Person.new("Karen")
-puts karen.name 
